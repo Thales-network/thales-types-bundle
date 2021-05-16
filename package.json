@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/Thales-network/thales-types-bundle/issues"
   },
-  "homepage": "https://github.com/Thales-network/thales-types-bundle#readme"
+  "homepage": "https://github.com/Thales-network/thales-types-bundle#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@polkadot/keyring": "^6.4.1",
+    "@polkadot/types": "^4.9.2"
+  }
 }
