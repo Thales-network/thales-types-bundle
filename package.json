@@ -1,18 +1,24 @@
 {
   "name": "thales-types-bundle",
   "version": "0.8.0",
-  "description": "Thales network types bundle for polakatdot.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Ckadot.js",
-  "main": "index.ts",
+  "description": "Thales network types bundle for polkatdot.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "prepublish": "tsc",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "lint": "npx prettier --write --ignore-path .gitignore '**/*.(yml|js|ts|json)'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Thales-network/thales-types-bundle.git"
   },
   "keywords": [
+    "api",
+    "bundle",
     "thales",
-    "polkadot"
+    "polkadot",
+    "types"
   ],
   "author": "bit.god@yandex.com",
   "license": "MIT",
