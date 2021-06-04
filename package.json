@@ -1,6 +1,6 @@
 {
   "name": "thales-types-bundle",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "description": "Thales network types bundle for polkatdot.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
